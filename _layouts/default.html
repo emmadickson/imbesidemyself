@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta http-equiv="Content-Type"content="text/html; charset=UTF-8"/>
+      <meta name="viewport"content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+      <!-- CSS  -->
+      <link rel="shortcut icon"href="assets/images/pill.png"/>
+      <link href="assets/css/materialize.css"type="text/css"rel="stylesheet"media="screen,projection"/>
+      <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+      <!-- Begin Jekyll SEO tag v2.4.0 -->
+      <title>D I S S O C I A T E</title>
+      <meta property="title"content="D I S S O C I A T E"/>
+      <meta property="locale"content="en_US"/>
+      <meta name="description"content="BUILD YOUR OWN DISTRIBUTED DISSOCIATION DEVICE"/>
+      <meta property="site_name"content="D I S S O C I A T E"/>
+      <meta name="generator"content="Jekyll v3.7.3"/>
+      <meta property="og:title"content="D I S S O C I A T E"/>
+      <meta property="og:locale"content="en_US"/>
+      <meta property="og:description"content="BUILD YOUR OWN DISTRIBUTED DISSOCIATION DEVICE"/>
+      <meta property="og:site_name"content="D I S S O C I A T E"/>
+      <meta http-equiv="Content-Type"content="text/html; charset=utf-8"/>
+      <script type="application/ld+json">
+         {
+        "name":"D I G I T A L  A B O R T I O N",
+        "description":"BUILD YOUR OWN DISTRIBUTED DISSOCIATION DEVICE",
+        "author": {
+          "@type":"Person",
+          "name":"Emma Dickson"
+           },
+        "@type":"WebSite",
+        "url":"https://www.howtodissociate.com",
+        "headline":"D I S S O C I A T E",
+        "@context":"http://schema.org"
+         }
+      </script>
+      <!-- End Jekyll SEO tag -->
+      <style>
+        @font-face {
+           font-family: Chicago;
+           src: url(assets/fonts/Chicago.ttf);
+        }
+        body{
+          background-color: white;
+          overflow-wrap: break-word;
+          font-family: 'Chicago';
+          color: black;
+          font-size: 70px;
+          padding: 40px;
+        }
+        img{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+    </style>
+    </head>
+
+
+
+<body>
+
+    <div class="container">
+      <img src="assets/images/d3.JPG" width=300px height=300px;>
+      <h3 class="header center orange-text">The Distributed Dissociation Device</h3>
+      <div class="row center">
+        <h5 class="header col s12 light">If you can’t create your own sense of disconnection from your body, store bought is fine. </h5>
+      </div>
+      <div class="row center">
+        <div id="download-button" class="btn-large waves-effect waves-light orange">Get Instructions</div>
+      </div>
+    </div>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="assets/js/materialize.js"></script>
+  <script src="assets/js/init.js"></script>
+  <script>
+  var button = document.getElementById('download-button')
+    button.addEventListener('click', function(event){
+      if (event===undefined) event= window.event;
+      var target= 'target' in event? event.target : event.srcElement;
+      download("assets/docs/d3.pdf", "d3.pdf");
+    });
+
+
+    function download(fileUrl, fileName) {
+     var a = document.createElement("a");
+     a.href = fileUrl;
+     a.setAttribute("download", fileName);
+     a.click();
+   }
+  </script>
+  </body>
+</html>

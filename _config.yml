@@ -1,0 +1,9 @@
+name: D I G I T A L  A B O R T I O N
+title: D I G I T A L  A B O R T I O N
+url: https://digitalabortion.net
+description: D I G I T A L  A B O R T I O N
+author:
+image: images/abortion.jpg
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
